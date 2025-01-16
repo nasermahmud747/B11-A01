@@ -1,0 +1,73 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /*nav*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-button{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    width: 116px;
+    height: 52px;
+    margin: 24px 160px 24px 0px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+.header-title{
+    margin: 31px 0px 31px 160px;
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: fira sans;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 117px 0px 0px 60px;
+    margin: 60px 60px;
+}
+.hero-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+}
+.hero-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero-button{
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    width: 270px;
+    height: 56px;
+    justify-content: center;
+    font-family: Fira sans;
+    font-size: 18px;
+    font-weight:bold;
+    color: rgba(255, 255, 255, 1);
+}
+.hero-image{
+    margin: 80px 60px 150px 0px;
+}
