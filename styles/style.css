@@ -194,6 +194,8 @@ nav{
     text-align: left;
 }
 /* younus style */
+
+
 .dr-younus{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -202,6 +204,14 @@ nav{
     margin-left: 160px;
     margin-top: 16px;
     margin-right: 160px;
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 48px;
+    background-position-y: 38px;
+
+    
+    
 }
 .dr-description{
     padding-left: 24px;
@@ -212,6 +222,8 @@ nav{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    
+    
 }
 .dr-title{
     padding-left: 24px;
@@ -220,6 +232,7 @@ nav{
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
+    
 
 }
 .dr-sub{
@@ -228,6 +241,68 @@ nav{
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    padding-bottom: 10px;
+    
+}
+/* table */
+table{
+    border-collapse: collapse;
+    width: 95%;
+    margin: 32px 32px;
+
+}
+td{
+    border: 1px solid rgba(14, 14, 14, 0.15);;
+    padding: 35px;
+    padding-left: 24px;
+    position: ;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+th{
+    background-color:rgb(198, 228, 214);;
+
+    border: 1px solid rgba(14, 14, 14, 0.15);;
+    padding: 35px;
+    padding-left: 24px
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    
+       
+}
+.section-ta{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.td-des{
+    padding-left: 1100px;
+}
+.table-span{
+    background-image: url("../assets/al-jazeera.png");
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    width: 152px;
+    height: 44px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    margin:auto;
+    display:block;
+}
+.table-heading{
+    padding-left: 160px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
 }
