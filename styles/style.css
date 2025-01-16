@@ -1,5 +1,6 @@
 /* Font Style */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
   /*nav*/
 
 nav{
@@ -34,8 +35,8 @@ nav{
     justify-content: space-between;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    padding: 117px 0px 0px 60px;
-    margin: 60px 60px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .hero-subtitle{
     color: rgba(14, 14, 14, 0.5);
@@ -70,4 +71,163 @@ nav{
 }
 .hero-image{
     margin: 80px 60px 150px 0px;
+}
+.hero-content{
+    padding: 117px 0px 117px 60px;
+
+}
+/* pillar-card */
+.pillar-card{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px 0px 160px ;
+    gap:24px;
+   
+    
+}
+.pillar-main{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+   
+    
+
+}
+.card-icon{
+    margin: 25px 0px 0px 37px;
+}
+.pillar-subtitle{
+    padding-left: 24px;
+    font-family: Fira sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillar-description{
+    padding-left: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: fira sans;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.pillar-title{
+    padding-left: 160px;
+    font-family: fira sans;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+}
+/* vision style */
+.vision{
+    
+}
+.vision-main{
+    display: flex;
+    gap: 24px;
+    margin: 0px 160px 0 160px;
+    
+    
+    
+    
+}
+.vision-card{
+    padding: 32px;
+    
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);  
+    
+}
+.vision-image{
+    margin-top: 30px;
+    padding-left: 32px;
+}
+.vision-subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 32px;
+    
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 32px;
+
+
+}
+.btn-primary{
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    width: 122px;
+    height: 41px;
+    margin-left: 32px;
+}
+.vision-title{
+    padding-left: 160px;
+}
+.vision-desc{
+    padding: 0px 160px 0px 160px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+/* younus style */
+.dr-younus{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-left: 160px;
+    margin-top: 16px;
+    margin-right: 160px;
+}
+.dr-description{
+    padding-left: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.dr-title{
+    padding-left: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+.dr-sub{
+    padding-left: 24px;
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10px;
 }
