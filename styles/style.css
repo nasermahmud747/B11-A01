@@ -1,17 +1,21 @@
 /* Font Style */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
   /*nav*/
 body{
-    background-color:rgba(241, 241, 243, 1) ;
-}
-header{
     background-color:rgba(241, 241, 243, 1);
+    
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    margin: auto;
     
 }
 .nav-button{
@@ -83,10 +87,7 @@ nav{
     padding: 117px 0px 117px 60px;
 
 }
-main{
-    background-color:rgba(241, 241, 243, 1)
-    
-}
+
 /* pillar-card */
 .pillar-card{
     
@@ -101,6 +102,7 @@ main{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    border: none;
     background: rgb(255, 255, 255);
    
     
@@ -117,6 +119,7 @@ main{
     color: rgba(14, 14, 14, 0.8);
 }
 .pillar-description{
+    padding-bottom: 10px;
     padding-left: 24px;
     color: rgba(14, 14, 14, 0.7);
     font-family: fira sans;
@@ -137,20 +140,21 @@ main{
 }
 /* vision style */
 .vision{
+    margin-top: 24px;
     
 }
 .vision-main{
+    
     display: flex;
     gap: 24px;
-    margin: 0px 160px 0 160px;
-    
-    
-    
-    
+    margin: 0px 160px 0 160px; 
+}
+.vision-desc{
+    padding: 24px;
 }
 .vision-card{
+    margin-top: 24px;
     padding: 32px;
-    
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);  
     
@@ -160,6 +164,7 @@ main{
     padding-left: 32px;
 }
 .vision-subtitle{
+    
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 20px;
@@ -168,6 +173,7 @@ main{
     
 }
 .vision-description{
+    
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -265,7 +271,6 @@ td{
     border: 1px solid rgba(14, 14, 14, 0.15);;
     padding: 35px;
     padding-left: 24px;
-    position: ;
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 16px;
@@ -274,7 +279,7 @@ td{
 th{
     background-color:rgb(198, 228, 214);;
 
-    border: 1px solid rgba(14, 14, 14, 0.15);;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 35px;
     padding-left: 24px
     color: rgb(14, 14, 14);
@@ -284,7 +289,9 @@ th{
        
 }
 .section-ta{
+    margin-top: 24px;
     box-sizing: border-box;
+    border: none;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     border-radius: 16px;
@@ -311,6 +318,7 @@ th{
     display:block;
 }
 .table-heading{
+    padding-top: 80px;
     padding-left: 160px;
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -318,6 +326,7 @@ th{
     font-weight: 700;
 }
 .news-section{
+    margin-top: 24px;
     background-color: rgba(14, 14, 14, 0.15);;
     box-sizing: border-box;
     border-radius: 24px;
@@ -328,11 +337,25 @@ th{
     justify-content: space-between;
     padding: 48px;
 }
+
 .news-description{
+    margin-top: 56px;
     padding-left: 24px;
     font-family: Fira sans;
+    
+    
+}
+.news-logo{
+    margin-top: 12px;
+}
+.news-date{
+    margin: 12px 0px;
+}
+.news-content{
+    margin: 12px 0;
 }
 .news-btn{
+    margin-top: 32px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 18px;
@@ -345,8 +368,12 @@ th{
 }
 .news-image{
     border-radius: 24px;
+    margin-top: 48px;
+    width: 408px;
+    height: 306px;
 }
 .news-title{
+    margin-top: 80px;
     padding-left: 160px;
     padding-right: 160px;
     color: rgb(14, 14, 14);
@@ -355,6 +382,7 @@ th{
     font-weight: 700;
 }
 .news-subtitle{
+    margin-top: 24px;
     padding-left: 160px;
     padding-right: 160px;
     color: rgba(14, 14, 14, 0.7);
@@ -368,11 +396,27 @@ th{
 }
 /* Donate style */
 .donate-box{
-    
+    margin-top: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;  
+}
+.donate-title{
+    margin-top: 80px;
+}
+.donate-subtitle{
+    margin-top: 24px;
+}
+.btn-dn{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;    
+    background: rgb(255, 255, 255);
+    width: 252px;
+    height: 128px;
+    text-align: center;
+    padding: 40px; 
 }
 .btn-donate{
     box-sizing: border-box;
@@ -462,7 +506,12 @@ input::placeholder{
 }
 /* footer */
 footer{
-    background-color: white;
+    margin-bottom: 24px;
+    background: white;
+    text-align: justify;
+}
+footer hr{
+    
 }
 .footer-title{
     text-align: center;
@@ -474,13 +523,21 @@ footer{
     font-weight: 700
     
 }
-.footer-image{
-    
+.footer-main{
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
 }
-    
-    
-    
-
-.footer-hr{
+.footer-image{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+footer hr{
+    margin: 0 auto;
     border: 1px solid rgba(14, 14, 14, 0.1);
+    width:  1122px;;
 }
